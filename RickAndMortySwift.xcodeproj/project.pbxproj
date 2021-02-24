@@ -10,6 +10,9 @@
 		0CD4377C25E69835002889B3 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4377B25E69835002889B3 /* Character.swift */; };
 		0CD4377F25E69914002889B3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4377E25E69914002889B3 /* NetworkManager.swift */; };
 		0CD4378225E69944002889B3 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4378125E69944002889B3 /* ApiError.swift */; };
+		0CD4378825E6B5EF002889B3 /* PaginationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4378725E6B5EF002889B3 /* PaginationInformation.swift */; };
+		0CD4378B25E6B735002889B3 /* PaginatedElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4378A25E6B735002889B3 /* PaginatedElements.swift */; };
+		0CD4379525E6B850002889B3 /* UIImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4379425E6B850002889B3 /* UIImageView+Additions.swift */; };
 		0CFD2D8225E69481005E22A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD2D8125E69481005E22A2 /* AppDelegate.swift */; };
 		0CFD2D8425E69481005E22A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD2D8325E69481005E22A2 /* SceneDelegate.swift */; };
 		0CFD2D8625E69481005E22A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD2D8525E69481005E22A2 /* ViewController.swift */; };
@@ -22,6 +25,9 @@
 		0CD4377B25E69835002889B3 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		0CD4377E25E69914002889B3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0CD4378125E69944002889B3 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		0CD4378725E6B5EF002889B3 /* PaginationInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationInformation.swift; sourceTree = "<group>"; };
+		0CD4378A25E6B735002889B3 /* PaginatedElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedElements.swift; sourceTree = "<group>"; };
+		0CD4379425E6B850002889B3 /* UIImageView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Additions.swift"; sourceTree = "<group>"; };
 		0CFD2D7E25E69481005E22A2 /* RickAndMortySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFD2D8125E69481005E22A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CFD2D8325E69481005E22A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +78,9 @@
 				0CD4377B25E69835002889B3 /* Character.swift */,
 				0CD4377E25E69914002889B3 /* NetworkManager.swift */,
 				0CD4378125E69944002889B3 /* ApiError.swift */,
+				0CD4378725E6B5EF002889B3 /* PaginationInformation.swift */,
+				0CD4378A25E6B735002889B3 /* PaginatedElements.swift */,
+				0CD4379425E6B850002889B3 /* UIImageView+Additions.swift */,
 			);
 			path = RickAndMortySwift;
 			sourceTree = "<group>";
@@ -148,9 +157,12 @@
 			files = (
 				0CFD2D8625E69481005E22A2 /* ViewController.swift in Sources */,
 				0CFD2D8225E69481005E22A2 /* AppDelegate.swift in Sources */,
+				0CD4378825E6B5EF002889B3 /* PaginationInformation.swift in Sources */,
 				0CD4378225E69944002889B3 /* ApiError.swift in Sources */,
+				0CD4378B25E6B735002889B3 /* PaginatedElements.swift in Sources */,
 				0CD4377F25E69914002889B3 /* NetworkManager.swift in Sources */,
 				0CFD2D8425E69481005E22A2 /* SceneDelegate.swift in Sources */,
+				0CD4379525E6B850002889B3 /* UIImageView+Additions.swift in Sources */,
 				0CD4377C25E69835002889B3 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
