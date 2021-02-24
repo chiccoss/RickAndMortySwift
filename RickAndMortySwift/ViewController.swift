@@ -7,7 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
+    
+    private enum Section {
+        case main
+    }
+
+    private enum Item: Hashable {
+        case character(SerieCharacter)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
