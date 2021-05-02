@@ -53,6 +53,7 @@ class NetworkManager {
             guard let mimeType = httpResponse.mimeType,
                   mimeType == "application/json" else {
                 completion(.failure(ApiError.mimeTypeError))
+                return
             }
             
             guard let data = data else {

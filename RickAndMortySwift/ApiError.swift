@@ -8,7 +8,7 @@
 import Foundation
 
 
-enum ApiError {
+enum ApiError : Error {
     case statusCode(Int)
     case invalidResponse
     case emptyResponse

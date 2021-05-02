@@ -13,8 +13,8 @@ struct PaginatedElements<Element: Decodable> {
     let decodedElements: [Element]
 }
 
-extension PaginatedElements: Decodable{
-    enum CodingKeys: String,CodingKey {
+extension PaginatedElements: Decodable {
+    enum CodingKeys: String, CodingKey {
         case information = "info"
         case decodedElements = "results"
     }
